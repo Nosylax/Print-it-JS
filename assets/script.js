@@ -63,5 +63,4 @@ function change_image_texte() {
   image.setAttribute("src", slides[number_selected].image);
   let texte = document.querySelector("#banner p");
   texte.innerHTML = slides[number_selected].tagLine;
-  change_dot();
 }
